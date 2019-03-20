@@ -5,4 +5,11 @@ package zhang.com.customerview_1.model;
  */
 
 public class Pie {
+    public String name;
+    public float value;
+    public float percentage;
+
+    public int color;
+    public int angle;
+
 }
