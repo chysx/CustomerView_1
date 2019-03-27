@@ -4,11 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:orientation="vertical"
     tools:context="zhang.com.customerview_1.MainActivity">
 
-    <zhang.com.customerview_1.view.PieView
-        android:id="@+id/pv"
-        android:layout_width="500px"
-        android:layout_height="500px" />
+    <Button
+        android:id="@+id/btn_pie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="PieView"/>
+
 </LinearLayout>
