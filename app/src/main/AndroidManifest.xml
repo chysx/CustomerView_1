@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.PieActivity"></activity>
+        <activity android:name=".activity.PathActivity"></activity>
+        <activity android:name=".activity.BezierActivity"></activity>
+        <activity android:name=".activity.PathMeasureActivity"></activity>
     </application>
 
 </manifest>

@@ -16,4 +16,31 @@
         android:layout_marginTop="20dp"
         android:text="PieView"/>
 
+    <Button
+        android:id="@+id/btn_path"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="PathView"/>
+
+    <Button
+        android:id="@+id/btn_bezier"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Bezier"/>
+
+    <Button
+        android:id="@+id/btn_path_measure"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="PathMeasure"/>
+
 </LinearLayout>
